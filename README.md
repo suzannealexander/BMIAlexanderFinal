@@ -6,7 +6,9 @@ Final project for BMI 510
 To install the package, you can use the `githubinstall` package. Run the following command in your R console:
 
 ```R
-githubinstall("BMIAlexanderFinal")
+install.packages("remotes")
+remotes::install_github("suzannealexander/BMIAlexanderFinal")
+library(BMIAlexanderFinal)
 ```
 
 #### Usage
