@@ -35,5 +35,12 @@
 
 18. R Development Core Team. (n.d.). pwr.t2n.test: Power Analysis for Two-Sample t-Test on Means (Version 1.3-0) [R Documentation]. Retrieved Apr 25 2024, from https://rdrr.io/cran/pwr/man/pwr.t2n.test.html
 
+19. R Core Team. (2019). Sys.getenv {base}: Get or Set an Environment Variable. In R Documentation. Retrieved Apr 26 2024, from https://www.rdocumentation.org/packages/base/versions/3.6.2/topics/Sys.getenv
+
+20. Wickham, H., & Bryan, J. (2022). POST function. In httr: Tools for Working with URLs and HTTP (Version 1.4.2). Retrieved Apr 28 2024, from https://httr.r-lib.org/reference/POST.html
+
+21. Wickham, H., & Bryan, J. (2022). content function. In httr: Tools for Working with URLs and HTTP (Version 1.4.2). Retrieved Apr 28 2024, from https://httr.r-lib.org/reference/content.html
+
+22. Wickham, H., Hester, J., & Francois, R. (2022). read_delim function. In readr: Read Rectangular Text Data (Version 2.1.2). Retrieved Apr 30 2024, from https://readr.tidyverse.org/reference/read_delim.html
 
 
