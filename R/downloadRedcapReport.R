@@ -25,15 +25,12 @@ downloadRedcapReport <- function(redcapTokenName, redcapUrl, redcapReportId){
     "returnFormat" = "csv"
   )
 
-  # Step 3: Send HTTP POST Request to RedCap
   response <- httr::POST(redcapUrl, body = formData, encode = "form")
 
-  # Step 4: Handle Response
-  redcap_data <- httr::content(response)
+  redcap_data <- httr::content(response, as = "text")
 
-  # Step 5: Convert Response to Tibble
-  redcap_tibble <- readr::read_csv(redcap_data)  # Assuming response content is CSV
+  redcap_tibble <- readr::read_csv(redcap_data, show_col_types = FALSE)
 
-  # Step 6: Return Tibble
   return(redcap_tibble)
 }
+
