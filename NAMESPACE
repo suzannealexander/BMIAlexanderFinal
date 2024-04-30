@@ -1,0 +1,4 @@
+exportPattern("^[[:alpha:]]+")
+export(logLikBernoulli, survCurv, unscale, pcApprox, standardizeNames, minimumN, downloadRedcapReport)
+import(pwr, dplyr, janitor)
+
