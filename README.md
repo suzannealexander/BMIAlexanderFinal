@@ -20,7 +20,7 @@ The package offers a range of functions. Here's a list of available functions al
 - `pcApprox(x, npc)`: This function returns an approximation to the data x based on the specified number of principal components (npc).
 - `standardizeNames(data)`: This function standardizes the variable names in a tibble data to "small camel case".
 - `minimumN(x1, x2)`: This function takes either one or two samples of preliminary data (x1 or x2) and return the minimum sample size needed for a t-test under conditions: (1) The function should calculate the minimum sample size required for a t-test under the null hypothesis (2) It should determine the sample size needed to achieve 80 significance level of alpha = 0.05
-- `downloadRedcapReport(redcapTokenName,redcapUrl,redcapReportId)`: This function reads in an API token, url and report id from Redcap, downloading the report and returning the contents as a tibble
+- `downloadRedcapReport(redcapTokenName,redcapUrl,redcapReportId)`: This function reads in an API token from the user's .Renviron file, a Redcap url and a Redcap report id, downloading the report and returning the contents as a tibble
 
 After installing the package, you can explore detailed information about each function using the R help system. Type `?<functionName>` in your R console to access comprehensive documentation and usage examples.
 
