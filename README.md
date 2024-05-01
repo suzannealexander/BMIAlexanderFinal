@@ -12,7 +12,7 @@ library(BMIAlexanderFinal)
 ```
 
 #### Usage
-The package offers a range of functions to assist with various tasks. Here's a list of available functions along with a brief description:
+The package offers a range of functions. Here's a list of available functions along with a brief description:
 
 - `logLikBernoulli(data)`: This function takes in a vector of binary values to calculate parameter p
 - `survCurv(status, time)`: This function takes in numercial vectors status and time to calculate the survival curve S(t), returning a plot of the survival curve
